@@ -1,0 +1,24 @@
+.myClass1 {
+    border: 1px solid green;
+    margin-bottom: 50px;
+}
+
+.myClass2 {
+    border: 1px solid red;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.myClass3 {
+    border: 1px solid blue;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+. makeVisible {
+    visibility: visible;
+}
+
