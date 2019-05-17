@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+	<title>GLS Fullstack Exercise</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <script src="{% static 'js/player.js' %}"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+</head>
+<body>
+	<h1>GLS Fullstack Exercise</h1>
+    <div class="container">
+        <button id="gls_button" class="btn-primary" onclick="buttonClicked({{ guide }})">
+            Start GLS
+        </button>
+    </div>
+	<div class="myClass1 makeHidden" id="id_1">
+        <div class="card text-center">
+            <div class="card-header">
+                Guided Learning Solution
+            </div>
+            <div class="card-body">
+                <p id="text_1" class="card-text">First tip on heajnca casnkn me using id.</p>
+            </div>
+            <div class="card-footer text-muted" id="btn_1">
+                <button class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </div>
+	<div class="myClass2 makeHidden" id="id_2">
+        <div class="card text-center">
+            <div class="card-header">
+                Guided Learning Solution
+            </div>
+            <div class="card-body">
+                <p id="text_2" class="card-text">Second tip on me using class.</p>
+            </div>
+            <div class="card-footer text-muted" id="btn_2">
+                <button class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </div>
+	<div class="myClass3 makeHidden" id="id_3">
+        <div class="card-header">
+                Guided Learning Solution
+            </div>
+            <div class="card-body">
+                <p id="text_3" class="card-text">I am the 3rd div. 3rd tip on me using xpath.</p>
+            </div>
+            <div class="card-footer text-muted" id="btn_3">
+                <button class="btn btn-primary">Close</button>
+            </div>
+    </div>
+</body>
+</html>
